@@ -3,7 +3,7 @@ Hadoop diário são algumas notas de aprendizado sobre Apache Hadoop na Fatec Am
 
 ##Se você deseja aprender como instalar e configurar o Apache Hadoop
 
-	<https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Instalacao>
+<https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Instalacao>
 
 ###Para facilitar sua vida usando Python e Hadoop, você pode usar a MapReduce_lib e o HDFS_lib:
 
