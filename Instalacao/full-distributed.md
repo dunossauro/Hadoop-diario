@@ -77,17 +77,35 @@ yarn-site.xml:
 </configuration>
 Todos os outros nós precisam estar nomeados no seu /etc/hosts
 
-(configuração hosts)
+	hadoopmaster	<IP>
+	hadoopslave1	<IP>
+	hadoopslave2	<IP>
+	hadoopslave3	<IP>
+	hadoopslave4	<IP>
+	hadoopslave5	<IP>
+	hadoopslave6	<IP>
+	hadoopslave7	<IP>
+	hadoopslave8	<IP>
+	hadoopslave9	<IP>
 
 Agora, dois novos arquivos precisam ser criados dentro de /usr/local/hadoop/etc/hadoop
 
-slaves
+	slaves:
+	
+		hadoopslave1
+		hadoopslave2
+		hadoopslave3
+		hadoopslave4
+		hadoopslave5
+		hadoopslave6
+		hadoopslave7
+		hadoopslave8
+		hadoopslave9
 
-(configuração slaves)
+	master:
 
-master
+		hadoopmaster
 
-(configuração Master)
 
 ##Teste de funcionamento:
 
