@@ -19,7 +19,7 @@ tanto da base automática quando convencional para cruzamento com as bases do IN
 #### Resultados
 
 #### Arquivos
-	[Script de coleta]()
-	[Txt para o Slqite3]()
-	[Scripts de MapReduce]()
-	[Teste com a MapReduceLib]()
+[Script de coleta]()
+[Txt para o Slqite3]()
+[Scripts de MapReduce]()
+[Teste com a MapReduceLib]()
