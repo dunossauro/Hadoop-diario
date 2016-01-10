@@ -13,13 +13,13 @@ tanto da base automática quando convencional para cruzamento com as bases do IN
 	Slackware		14.1-64bits
 	Python			3+
 	MatPlotlib
-	Sqlite3
-	MapReduceLib	0.1.0
+	Sqlite			3
+	MapReduceLib		0.1.0
 	
 #### Resultados
 
 #### Arquivos
-[Script de coleta]()
-[Txt para o Slqite3]()
-[Scripts de MapReduce]()
-[Teste com a MapReduceLib]()
+	[Script de coleta]()
+	[Txt para o Slqite3]()
+	[Scripts de MapReduce]()
+	[Teste com a MapReduceLib]()
