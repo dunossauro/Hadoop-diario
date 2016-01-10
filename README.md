@@ -13,7 +13,7 @@ Hadoop diário são algumas notas de aprendizado sobre Apache Hadoop na Fatec Am
 
 [instalação](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Instalacao)
 
-#### Para facilitar sua vida usando Python e Hadoop, você pode usar a MapReduce_lib:
+#### Para facilitar sua vida usando Python e Hadoop, você pode usar a MapReduceLib:
 
 [MapReduceLib](https://github.com/z4r4tu5tr4/MapReduceLib)
 
