@@ -9,6 +9,10 @@ Hadoop diário são algumas notas de aprendizado sobre Apache Hadoop na Fatec Am
 
 3. Linguística de Corpus (Mai-Nov/2015) - Uma alternativa livre, usando o modelo MapReduce, para funções encontradas no [WordSmith Tools](http://www.lexically.net/wordsmith/)
 
+#### Tempo de resposta do [Cluster]()
+
+![Image Alt](http://s11.postimg.org/5fqwgh4n7/python.png)
+
 #### Se você deseja aprender como instalar e configurar o Apache Hadoop
 
 [instalação](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Instalacao)
