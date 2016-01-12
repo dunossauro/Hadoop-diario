@@ -29,7 +29,7 @@ Ele nasceu com objetivo de aprender e ensinar Apache hadoop a todos os interessa
 	5. Resolver alguns problemas metereológicos
 
 #### Tempo de resposta do Hadoop [cluster](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/cluster.md) na contagem de palavras 
-usando a técnica de contagem da linguística de corpus
+> técnica de contagem da linguística de corpus
 
 | Tamanho | Tempo em 1 nó |Tempo Cluster|
 |--------|---------------|--------------|
