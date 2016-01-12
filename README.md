@@ -1,7 +1,7 @@
 # Hadoop Diário
 Hadoop diário são algumas notas de aprendizado sobre Apache Hadoop na Fatec Americana.
 
-#### Etapas de desenvolvimento dos projetos
+#### Etapas de desenvolvimento dos [projetos](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos)
 	
 1. Drummond (Nov-Dez/2014) - Tentativa de encontrar padrões em textos de [Carlos Drummond de Andrade](https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade), tanto para aplicações de testes para Linguística, quanto de criptografia
 
