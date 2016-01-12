@@ -30,4 +30,14 @@ Ele nasceu com objetivo de aprender e ensinar Apache hadoop a todos os interessa
 
 #### Tempo de resposta do Hadoop [Cluster](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/cluster.md)
 
-![Image Alt](http://s11.postimg.org/5fqwgh4n7/python.png)
+| Tamanho | Tempo em 1 nó |Tempo Cluster|
+|--------|---------------|--------------|
+|138 B |0.032s |4.274s|
+|1.6 KB |0.034s| 4.182s|
+|15.2 KB |0.063s| 5.165s|
+|154.3 KB| 0.243s| 5.201s|
+|1.5 MB |1.716s| 7.259s|
+|15.3 MB |16.581s| 27.372s|
+|153.4 MB| 2m 44.602s| 3m 53.429s|
+|1.5 GB |33m 28.294s| 26m 43.265s|
+|15.3 GB| 355m 1.318s| 97m 56.008s|
