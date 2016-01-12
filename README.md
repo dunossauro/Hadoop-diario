@@ -28,6 +28,6 @@ Ele nasceu com objetivo de aprender e ensinar Apache hadoop a todos os interessa
 	4. Resolver alguns problemas de linguistica de corpus
 	5. Resolver alguns problemas metereológicos
 
-#### Tempo de resposta do Hadoop [Cluster]()
+#### Tempo de resposta do Hadoop [Cluster](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/cluster.md)
 
 ![Image Alt](http://s11.postimg.org/5fqwgh4n7/python.png)
