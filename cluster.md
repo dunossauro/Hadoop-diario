@@ -6,14 +6,14 @@ Formado por 10 máquinas com seguinte configuração:
 
 |  x |  y | z  |
 |---|---|---|
-|Processador| Core2duo| E7500
-|Memória |4GB| DDR2
-Sistema Operacional| Slackware 14.1| 64bits
-Sistema de arquivos| EXT4|
+|Processador| Core2duo| E7500|
+|Memória |4GB| DDR2|
+|Sistema Operacional| Slackware 14.1| 64bits|
+|Sistema de arquivos| EXT4|
 
 #### Software
 |Software | Versão | Observação|
 |---|---|---|
-Hadoop | 2.6.0 | Modo Fully Distributed|
+Hadoop | 2.6.0 | [Modo Fully Distributed](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Instalacao/full-distributed.md)|
 Python | 3.5.0 | Interpretador Cpython|
 Bash | 4.3.42(1) | UTF-8 encode
