@@ -18,11 +18,14 @@ tanto da base automática quando convencional para cruzamento com as bases do IN
 	
 #### Resultados
 
+grafico de exibição de médias de chuva (2011 - 2014)
+![Alt text](https://lh3.googleusercontent.com/-iiXVqnUsNnQ/VaSH8AKQ9eI/AAAAAAAAD5Q/4i-RwZN3U0s/w1044-h503-no/chuva.png)
+
 #### Arquivos
-[Script de coleta]()
+[Script de coleta e transferencia do csv2txt](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos/metereologia/coleta)
 	
 [Txt para o Slqite3]()
 	
-[Scripts de MapReduce]()
+[Scripts de MapReduce](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos/metereologia/cruzamento)
 	
-[Teste com a MapReduceLib]()
+[Teste com a MapReduceLib](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Projetos/metereologia/cruzamento/cruzamento_plot.py)
