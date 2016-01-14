@@ -12,9 +12,9 @@ tanto da base automática quando convencional para cruzamento com as bases do IN
 	Hadoop 			2.6.0
 	Slackware		14.1-64bits
 	Python			3+
-	MatPlotlib
+	MatPlotlib		1.5.1
 	Sqlite			3
-	MapReduceLib		0.1.0
+	MapReduceLib	0.1.0
 	
 #### Resultados
 
