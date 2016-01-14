@@ -29,3 +29,5 @@ grafico de exibição de médias de chuva (2011 - 2014)
 [Scripts de MapReduce](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos/metereologia/cruzamento)
 	
 [Teste com a MapReduceLib](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Projetos/metereologia/cruzamento/cruzamento_plot.py)
+
+[Teste com Hadoop streaming](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Projetos/metereologia/hadoop_map_reduce.sh)
