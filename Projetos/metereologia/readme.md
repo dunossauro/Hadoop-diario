@@ -24,7 +24,7 @@ grafico de exibição de médias de chuva (2011 - 2014)
 #### Arquivos
 [Script de coleta e transferencia do csv2txt](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos/metereologia/coleta)
 	
-[Txt para o Slqite3]()
+[Txt para o Slqite3](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Projetos/metereologia/txt_2_sqlite.py)
 	
 [Scripts de MapReduce](https://github.com/z4r4tu5tr4/Hadoop-diario/tree/master/Projetos/metereologia/cruzamento)
 	
