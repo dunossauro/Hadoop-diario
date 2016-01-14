@@ -42,6 +42,7 @@ Ano|Mês|Media Chuva
 
 
 > grafico de exibição de médias de chuva (2011 - 2014)
+
 ![Alt text](https://lh3.googleusercontent.com/-iiXVqnUsNnQ/VaSH8AKQ9eI/AAAAAAAAD5Q/4i-RwZN3U0s/w1044-h503-no/chuva.png)
 
 #### Arquivos
