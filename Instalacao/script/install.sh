@@ -50,10 +50,10 @@ modo_de_instalacao(){
         read CAMINHO_JAVA
         echo -e "export JAVA_HOME=$CAMINHO_JAVA" >> hadoop-env.sh
         sudo mv hadoop-env.sh $HADOOP_ETC
-        sudo mv core-site.xml $HADOOP_ETC
-        sudo mv mapred-site.xml $HADOOP_ETC
-        sudo mv yarn-site.xml $HADOOP_ETC
-        sudo mv hdfs-site.xml $HADOOP_ETC
+        sudo mv p_core-site.xml $HADOOP_ETC
+        sudo mv p_mapred-site.xml $HADOOP_ETC
+        sudo mv p_yarn-site.xml $HADOOP_ETC
+        sudo mv p_hdfs-site.xml $HADOOP_ETC
         clear
         echo "Modo Pseudo-distributed instalado om sucesso!!!"
       ;;
