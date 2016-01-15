@@ -2,7 +2,7 @@
 
 Para configurar o modo pseudo-distribuído você deve cofigurar o modo single anteriormente:
   
-  |Link
+  [single](https://github.com/z4r4tu5tr4/Hadoop-diario/blob/master/Instalacao/SingleNode.md)
 
 Por Default todas as jobs do hadoop são executadas pelo usuário 0 (root) e se você deseja que as operações sejam executadas em um user específico você pode setar em `/etc/conf.d/hadoop` alterando a linha:
 
