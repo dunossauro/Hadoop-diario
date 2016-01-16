@@ -52,6 +52,21 @@ modo_de_instalacao(){
         echo -e "Digite o caminho de instalação do seu java EX: /usr/lib/jvm/default"
         read CAMINHO_JAVA
         echo -e "export JAVA_HOME=$CAMINHO_JAVA" >> hadoop-env.sh
+        echo -e "Desja configurar o SSH? (S/N)"
+        read bool
+        case $bool in
+
+          "s"|"S" )
+          ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+          cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+          ssh-keyscan -H localhost, localhost >> ~/.ssh/known_hosts
+          ssh-keyscan -H localhost, 0.0.0.0 >> ~/.ssh/known_hosts ;;
+
+          "n"|"N") ;;
+
+          * ) echo -e "Digite uma opção válida"
+          inicio ;;
+
         sudo mv hadoop-env.sh $HADOOP_ETC
         sudo mv p_core-site.xml $HADOOP_ETC
         sudo mv p_mapred-site.xml $HADOOP_ETC
@@ -59,20 +74,6 @@ modo_de_instalacao(){
         sudo mv p_hdfs-site.xml $HADOOP_ETC
         clear
 
-        echo -e "Desja configurar o SSH? (S/N)"
-        read bool
-        case $bool in
-
-          "s"|"S" )
-              ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-              cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-              ssh-keyscan -H localhost, localhost >> ~/.ssh/known_hosts
-              ssh-keyscan -H localhost, 0.0.0.0 >> ~/.ssh/known_hosts ;;
-
-          "n"|"N") ;;
-
-          * ) echo -e "Digite uma opção válida"
-              inicio ;;
         esac
         echo "Modo Pseudo-distributed instalado om sucesso!!!"
       ;;
