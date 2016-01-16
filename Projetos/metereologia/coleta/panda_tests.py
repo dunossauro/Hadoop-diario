@@ -1,5 +1,6 @@
+import matplotlib.pyplot as plt
 import pandas
 
-dados = pandas.read_csv('dados.csv')
+dados = pandas.read_csv('coleta.csv')
 
-print(dados)
+dados.plot(x="ano",kind='line')
