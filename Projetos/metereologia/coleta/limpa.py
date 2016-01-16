@@ -31,12 +31,11 @@ for x in num:
 for data in arq: #Iteração do nome dos arquivos
 
   for linha in entrada(data): #iteração da chamada da função
-      
+
       for x in mes_num: #Iteração para resolver problemas na formatação
-          if linha[3] == x:
+        if linha[3] == x:
             linha[3] = mes_num[linha[3]]
-                        
-            print("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s"%(
+            
+            print("%s.0,%s,%s,%s,%s,%s"%(
               int(linha[1]),linha[3],int(linha[2]),
-                  linha[12],linha[7],linha[9],
-                  linha[10],linha[8],linha[11]))
+                  linha[10],linha[11],linha[12]))
