@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 from sys import stdin
 
-print (("%-20s|%-7s") % ("Palavra", "Frequência"))
-print (("%-20s+-%-7s") % ("-" * 20, "-" * 7))
+print (("%-20s|%-7s\n%-20s+-%-7s") % ("Palavra", "Frequência","-" * 20, "-" * 7))
 dic = {}
 
 for line in stdin:
