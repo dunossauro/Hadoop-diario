@@ -12,8 +12,7 @@ def worker(line):
     for x in dicio:
         print(("%s\t%s")%(x,dicio[x]))
 
-pool_size = 4
-pool = Pool(pool_size)
+pool = Pool(8)
 
 for item in stdin:
     pool.apply_async(worker(item), item)
