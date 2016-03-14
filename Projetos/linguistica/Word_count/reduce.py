@@ -1,27 +1,20 @@
 #!/usr/bin/env python3
-import sys
+from sys import stdin
 
 print (("%-20s|%-7s") % ("Palavra", "Frequência"))
 print (("%-20s+-%-7s") % ("-" * 20, "-" * 7))
+dic = {}
 
-current_word = None
-current_count = 0
-word = None
-
-for line in sys.stdin:
+for line in stdin:
     line = line.strip()
-    word, count = line.split('\t', 1)
-    
+    word, count = line.split('\t')
+
     count = int(count)
 
-    if current_word == word:
-        current_count += int(count)
-
+    if word not in dic:
+        dic[word] =  count
     else:
-        if current_word:
-            print (('%-20s|%2s') % (current_word, current_count))
-        current_count = count
-        current_word = word
+        dic[word] += count
 
-if current_word == word:
-    print (('%-20s|%2s') % (current_word, current_count))
+for x in sorted(dic):
+    print (('%-20s|%2s') % (x, dic[x]))
